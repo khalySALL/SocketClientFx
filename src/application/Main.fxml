@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="29.0" layoutY="100.0" prefHeight="27.0" prefWidth="87.0" text="Message" />
+      <TextField fx:id="messagetxt" layoutX="131.0" layoutY="94.0" prefHeight="39.0" prefWidth="352.0" />
+      <Button fx:id="envoyerbt" layoutX="497.0" layoutY="94.0" mnemonicParsing="false" text="Envoyer" />
+      <TextArea fx:id="receptiontxt" layoutX="6.0" layoutY="148.0" prefHeight="247.0" prefWidth="585.0" />
+   </children>
+</AnchorPane>
